@@ -47,3 +47,27 @@ if(palabra.length<10){
 
 }else{
 alert(`Ingreso mas de un caracter`);
+
+/*
+Algoritmo N° 3 números decrecientes:
+    Se ingresan 20 numeros en orden aleatorio
+    se ordenan de forma decreciente con el 
+    algoritmo de burbuja.
+
+*/
+let num = [];
+let aux;
+    for (i=0;i<=19;i++){
+        num[i] = parseInt(prompt("Ingrese numeros"))
+}
+    for(i=0;i<=19;i++){
+        for(j=0;j<=19;j++){
+            if(num[i]>num[j]){
+                aux = num[i]
+                num[i]=num[j]
+                num[j] = aux
+
+ }
+ }
+ }
+alert(`El orden decreciente es: ${num}`);
