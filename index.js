@@ -25,3 +25,24 @@ promedio = suma/alumnos
 } 
 alert(`El promedio fue de ${promedio} y los alumnos que superaron el promedio son ${notamayor}`);
 
+/*
+Algoritmo N° 2 Palindromo:
+    El algoritmo verifica si la palabra ingresada
+    (menos a 10 caracteres) es un palindromo o no.
+
+*/
+let palabra;
+let verificacion = ""
+palabra = prompt(`Ingrese la palabra de menos de diez caracteres`)
+    if(palabra.length<10){
+
+ for (i=palabra.length-1;i>=0;i--){
+    verificacion = verificacion + palabra[i]
+}
+if(palabra==verificacion){
+    alert(`${palabra} es un palindromo`);
+}else{
+    alert(`${palabra} no es un palindromo`);
+}
+}else{
+alert(`Ingreso mas de un caracter`);
