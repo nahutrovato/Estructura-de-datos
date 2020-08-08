@@ -33,13 +33,13 @@ Algoritmo N° 2 Palindromo:
 */
 let palabra;
 let verificacion = ""
-palabra = prompt(`Ingrese la palabra de menos de diez caracteres`)
+palabra = prompt(`Ingrese la palabra de menos de diez caracteres`).toLowerCase();
     if(palabra.length<10){
 
  for (i=palabra.length-1;i>=0;i--){
     verificacion = verificacion + palabra[i]
 }
-if(palabra==verificacion){
+if(palabra===verificacion){
     alert(`${palabra} es un palindromo`);
 }else{
     alert(`${palabra} no es un palindromo`);
