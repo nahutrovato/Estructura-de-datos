@@ -71,3 +71,50 @@ let aux;
  }
  }
 alert(`El orden decreciente es: ${num}`);
+
+
+/*
+Algoritmo N°4 Números creciente y búsqueda de N:
+ El siguiente algoritmo ordena los numeros de manera
+ creciente mediante el metodo burbuja. Posteriormente
+ se pide al usuario un numero a buscar  y se realiza
+ una busqueda secuencial.
+
+
+*/
+let num = [];
+let aux, busqueda;
+let posicion = 0;
+let numero = 0;
+let j = 0;
+    for (i=0;i<=29;i++){
+        num[i] = Number(prompt("Ingrese numeros"))
+}
+    for(i=0;i<=29;i++){
+        for(j=0;j<=29;j++){
+            if(num[i]<num[j]){
+                aux = num[i]
+                num[i]=num[j]
+                num[j] = aux
+
+ }
+ }
+ }
+ alert(`Orden creciente es: ${num}`)
+ busqueda = Number(prompt(`Ingrese el numero a buscar`));
+
+    for(i=0;i<=29;i++){
+        if(busqueda==num[i]){
+            posicion = i
+            numero = num[i]
+            j = 1
+ }else{
+    j = 0
+ }
+}
+
+if(j=1){
+    alert(`El numero ${numero} fue encontrado en la posicion ${posicion}`);
+}else{
+    alert(`Numero no encontrado`);
+}
