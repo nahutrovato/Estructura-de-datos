@@ -24,3 +24,4 @@ promedio = suma/alumnos
  }
 } 
 alert(`El promedio fue de ${promedio} y los alumnos que superaron el promedio son ${notamayor}`);
+
