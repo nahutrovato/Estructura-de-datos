@@ -40,5 +40,27 @@ alert(`Ingreso mas de diez caracteres`);
 }
 }
 
+function numerosDecrecientes(){
 
+    let num = [];
+    let aux;
+        for (i=0;i<=19;i++){
+            num[i] = parseInt(prompt("Ingrese numeros"))
+    }
+        for(i=0;i<=19;i++){
+            for(j=0;j<=19;j++){
+                if(num[i]>num[j]){
+                    aux = num[i]
+                    num[i]=num[j]
+                    num[j] = aux
+    
+     }
+     }
+     }
+    alert(`El orden decreciente es: ${num}`);
+    
+    
+
+
+}
 
