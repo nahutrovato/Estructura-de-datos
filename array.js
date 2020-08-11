@@ -21,7 +21,7 @@ alert(`El promedio fue de ${promedio} y los alumnos que superaron el promedio so
 }
 
 function palindromo(){
-    let palabra;
+let palabra;
 let verificacion = ""
 palabra = prompt(`Ingrese la palabra de menos de diez caracteres`).toLowerCase();
 if(palabra.length<10){
