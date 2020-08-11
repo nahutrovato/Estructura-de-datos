@@ -41,7 +41,4 @@ alert(`Ingreso mas de diez caracteres`);
 }
 
 
-function saludo(){
-    alert("Hola")
-}
 
