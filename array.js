@@ -20,3 +20,24 @@ promedio = suma/alumnos
 alert(`El promedio fue de ${promedio} y los alumnos que superaron el promedio son ${notamayor}`);
 }
 
+function palindromo(){
+    let palabra;
+let verificacion = ""
+palabra = prompt(`Ingrese la palabra de menos de diez caracteres`).toLowerCase();
+if(palabra.length<10){
+
+     for (i=palabra.length-1;i>=0;i--){
+    verificacion = verificacion + palabra[i]
+}
+    if(palabra===verificacion){
+    alert(`${palabra} es un palindromo`);
+    }else{
+    alert(`${palabra} no es un palindromo`);
+}
+
+}else{
+alert(`Ingreso mas de diez caracteres`);
+}
+}
+
+
