@@ -1,3 +1,14 @@
+function mostrar(){
+    document.querySelector('#ejerciciosArray').style.display = 'block';
+}
+
+
+
+function ocultar(){
+        document.querySelector('#ejerciciosArray').style.display = 'none';
+}
+
+
 function notas(){
 
 let notas=[];

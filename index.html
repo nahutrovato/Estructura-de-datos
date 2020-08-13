@@ -6,7 +6,7 @@
     <title>Logica y Estructura de datos</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="styles.css">
    
 </head>
 <body>
@@ -14,8 +14,31 @@
     <p>Hola! En esta pagina encontraras informacion sobre la materia de logica y estructura de datos</p>
     <p>Esta realizada con Bootstrap</p>
 
+    
+    
 
+
+    <div class="card" style="width: 18rem;">
+        <img src="array.jpg" class="card-img-top" alt="Ilustra card ejercicios">
+        <div class="card-body">
+          <h5 class="card-title">Ejercicios de array</h5>
+          <p class="card-text">Haciendo click en el siguiente boton se desplegaran los ejercicios de array.</p>
+          <a href="#ejerciciosArray" class="btn btn-primary" onclick="mostrar()">Ejercicios Array</a>
+        </div>
+      </div>
+
+    
+
+
+
+
+<div id="ejerciciosArray">
     <h3 class="text-center">Ejercicios de array</h3>
+    
+    
+    
+    <button type="button" class="btn btn-primary" id="array"   onclick="ocultar()">Ocultar ejercicios</button>
+    
     
     <h4>Ejercicio N° 1 - Notas</h4>
     <p>Los ejercicios se encuentran separados. Para ejecutarlos haga click en su respectivo boton</p>
@@ -30,6 +53,7 @@
     <h3>Algoritmo N° 3 números decrecientes</h3>
      <p>Se ingresan 20 numeros en orden aleatorio se ordenan de forma decreciente con el algoritmo de burbuja.</p>   <button type="button" class="btn btn-primary" onclick="numerosDecrecientes()">Algoritmo N° 3</button>
 
+</div>
 
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
