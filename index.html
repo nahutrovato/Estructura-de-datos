@@ -10,48 +10,113 @@
    
 </head>
 <body>
-    <h1 class="text-center">Logica y Estructura de datos</h1>
-    <p>Hola! En esta pagina encontraras informacion sobre la materia de logica y estructura de datos</p>
-    <p>Esta realizada con Bootstrap</p>
+
 
     
-    
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Logica y Estructura de datos</h1>
+          <p class="lead">Hola! En esta pagina encontraras informacion sobre la materia de logica y estructura de datos. Esta realizada con Bootstrap</p>
+        </div>
+      </div>
 
 
     <div class="card" style="width: 18rem;">
-        <img src="array.jpg" class="card-img-top" alt="Ilustra card ejercicios">
+        <img src="img/array.jpg" class="card-img-top" alt="Ilustra card ejercicios">
         <div class="card-body">
-          <h5 class="card-title">Ejercicios de array</h5>
+          <h5 class="card-title"><em>Ejercicios de array</em></h5>
           <p class="card-text">Haciendo click en el siguiente boton se desplegaran los ejercicios de array.</p>
           <a href="#ejerciciosArray" class="btn btn-primary" onclick="mostrar()">Ejercicios Array</a>
         </div>
       </div>
 
     
-
+      
 
 
 
 <div id="ejerciciosArray">
-    <h3 class="text-center">Ejercicios de array</h3>
+    
+    
+    <div class="container-fluid h-100">
+        <div class="row">
+            <div class="col v-center">
+                <h3 class="text-center">Ejercicios de array</h3>
+                <button type="button" class="btn btn-primary" id="array"   onclick="ocultar()">Ocultar ejercicios</button>
+            </div>
+        </div>
+    </div>
+    
+    
+  
+  
+    
+    <div class="container">
+        <div class="row">
+           
+           
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/notas.jpg" class="card-img-top" alt="Ilustra card ejercicios">
+                    <div class="card-body">
+                      <h5 class="card-title">Notas</h5>
+                      <p class="card-text">El usuario ingresa la nota de 30 alumnos. La salida muestra el promedio y la cantidad de alumnos que superaron el promedio.</p>
+                      <a href="#" class="btn btn-primary" onclick="notas()">Ejecutar</a>
+                    </div>
+                </div>  
+            </div>
+            
+            
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/palindromo.png" class="card-img-top" alt="Ilustra card ejercicios">
+                        <div class="card-body">
+                              <h5 class="card-title">Palindromo</h5>
+                              <p class="card-text">El algoritmo verifica si la palabra ingresada (menos a 10 caracteres) es un palindromo o no.</p>
+                              <a href="#" class="btn btn-primary" onclick="palindromo()">Ejecutar</a>
+                        </div>
+                </div>
+            </div>
+
+           
+           
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/numeros.jpg" class="card-img-top" alt="Ilustra card ejercicios">
+                        <div class="card-body">
+                            <h5 class="card-title">Numeros decrecientes</h5>
+                            <p class="card-text">Se ingresan 20 numeros en orden aleatorio se ordenan de forma decreciente con el algoritmo de burbuja.</p>
+                            <a href="#" class="btn btn-primary" onclick="numerosDecrecientes()">Ejecutar</a>
+            </div>
+          </div>
+    
+     
+            </div>
+        </div>
+    </div>
+
+                    
+       
+        
+       
+    
+            
+        
     
     
     
-    <button type="button" class="btn btn-primary" id="array"   onclick="ocultar()">Ocultar ejercicios</button>
     
     
-    <h4>Ejercicio N° 1 - Notas</h4>
-    <p>Los ejercicios se encuentran separados. Para ejecutarlos haga click en su respectivo boton</p>
-    <p>  Algoritmo N°1 – Parcial Alumnos. El usuario ingresa la nota de 30 alumnos. La salida muestra el promedio y la cantidad de alumnos que superaron el promedio. </p>
-    <button type="button" class="btn btn-primary" onclick="notas()">Algoritmo N° 1</button>
+    
+   
+ 
 
 
-    <h4>Ejercicio N° 2  Palindromo</h4>
-    <p>El algoritmo verifica si la palabra ingresada (menos a 10 caracteres) es un palindromo o no.</p>
-    <button type="button" class="btn btn-primary" onclick="palindromo()">Algoritmo N° 2</button>
 
-    <h3>Algoritmo N° 3 números decrecientes</h3>
-     <p>Se ingresan 20 numeros en orden aleatorio se ordenan de forma decreciente con el algoritmo de burbuja.</p>   <button type="button" class="btn btn-primary" onclick="numerosDecrecientes()">Algoritmo N° 3</button>
+     
+
+    
+
 
 </div>
 
