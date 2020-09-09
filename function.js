@@ -1,5 +1,6 @@
 const mostrarFunction = () => {
-    document.querySelector('#ejerciciosArray').style.display = 'block';
+    document.querySelector('#').style.display = 'block';
+    alert(`Pagina en desarrollo`);
 }
 
 /*
