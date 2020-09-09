@@ -2,7 +2,7 @@ const mostrarFunction = () => {
     document.querySelector('#ejerciciosArray').style.display = 'block';
 }
 
-
+/*
 //Ejercicio function factorial:
 let numero = Number(prompt(`Ingrese un numero para factoriar`));
 let factorial = 1;
