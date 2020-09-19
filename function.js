@@ -34,3 +34,38 @@ const calcularPotencia2=(base,exponente)=>{
     return numeroBase2
 }
 console.log(`${numeroBase2} elevado a ${numeroExponente2} es: `, calcularPotencia2(numeroBase2, numeroExponente2));
+*/
+
+
+
+/*
+
+
+//Escribir una función que permita deducir si una fecha ingresada (en la forma dd/mm ej.:23/9) es válida (que exista, que no sea 31 de noviembre o 30 de febrero o 45 de enero)
+
+const mesesDelAño = [31,29,31,30,31,30,31,31,30,31,30,31];
+let ingresoDia = Number(prompt(`Ingrese un dia`));
+let ingresoMes = Number(prompt(`Ingrese un mes`));
+
+
+const validacionFecha = (dia, mes) => dia>mesesDelAño[mes-1] || dia<=0 ? alert(`Fecha incorrecta`) : alert(`Fecha correcta`);
+validacionFecha(ingresoDia, ingresoMes);
+
+
+
+//Escribir una función booleana "Digito" que determine si un carácter es uno de los dígitos 0 al 9.
+
+let ingresoDigito = Number(prompt(`Ingrese un digito`));
+const Digito = (digito) => alert(digito>=0 && digito<=9); 
+Digito(ingresoDigito);
+
+
+//realizar un algoritmo con una funcion que calcule el area de un circulo (pasando el radio por parametro y devolviendo el area para se mostrada DESDE EL CODIGO PRINCIPAL)
+
+let ingresoRadio = Number(prompt(`Ingrese el radio del circulo`));
+const calculaAreaDeCirculo = (radio) =>  2*Math.PI*radio;
+alert(calculaAreaDeCirculo(ingresoRadio));
+
+
+//realizar un algoritmo en el que se ingresen varias fracciones (en la forma numerador/denominador) las guarde en un array (pueden definir la cantidad de fracciones maxims que deseen a la hora de hacer el algoritmo) y tenga una funcion que las simplifique, dividiendo numerador y denominador por el maximo comun multiplo y las muestre (ej si la fraccion ingresada es 9/6 debe mostrar 3/2)
+*/
